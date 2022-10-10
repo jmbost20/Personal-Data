@@ -15,6 +15,10 @@ Using free online tools to create a sandbox tool for tracking various behaviors
 ## Data Collection
 
 
+### Interface
+![alt text](https://github.com/jmbost20/Personal-Data/blob/main/image.ppg?raw=true)
+
+
 
 ## Data Processing
 
