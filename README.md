@@ -1,5 +1,7 @@
 # Personal-Data
 
+### ***For Privacy Reasons, the .py, .ipynb, and commensurate data will not be uploaded
+
 ### Project Goal 
 Use free online tools to create a sandbox environment for tracking various behaviors
 
