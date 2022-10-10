@@ -16,7 +16,7 @@ Using free online tools to create a sandbox tool for tracking various behaviors
 
 
 ### Interface
-![alt text](https://github.com/jmbost20/Personal-Data/blob/main/image.ppg?raw=true)
+![Example](https://github.com/jmbost20/Personal-Data/blob/main/github.png)
 
 
 
