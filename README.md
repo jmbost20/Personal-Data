@@ -1,8 +1,8 @@
 # Personal-Data
 
-### ***For Privacy Reasons, the .py, .ipynb, and commensurate data will not be uploaded
+#### ***For Privacy Reasons, the full .py, .ipynb, and commensurate data will not be uploaded
 
-### Project Goal 
+#### Project Goal 
 Use free online tools to create a sandbox environment for tracking various behaviors
 
 ### Overview
@@ -23,10 +23,11 @@ The APIs are called to streamline the retrieval of personal data, and then diffe
 ## Data Collection
 
 
-### Google Forms Interface
+### Google Drive Interface
 ![Example](https://github.com/jmbost20/Personal-Data/blob/main/github.png)
 
 The first level of interacting with this system is to create a main directory to interact with all of the different google forms
+* Everything is stored within the same folder to ensure ease of use (A folder can be pinned and easily opened on the google drive app)
 
 ### Google Forms Interface
 
