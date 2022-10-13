@@ -3,7 +3,7 @@
 #### ***For Privacy Reasons, the full .py, .ipynb, and commensurate data will not be uploaded, but instead screenshots will be provided.
 
 #### Project Goal 
-Use free available tools to create a sandbox system for tracking various behaviors.
+Use free available tools to create a sandbox system to enable the user to dynamically update and choose what variables they track.
 
 ### Overview
 This project uses many products from Google Suite including Google Forms and Google Sheets to enable control in crafting of the project. 
@@ -35,14 +35,29 @@ The first level of interacting with this system is to create a main directory to
 
 ### Google Forms Interface
 
-![Example](https://github.com/jmbost20/Personal-Data/blob/main/Structural-Question.png)
+
+#### Structural Questions
+
+![Example](https://github.com/jmbost20/Personal-Data/blob/main/Structural%20Question.png)
+
+ 
+<br />
+
+Many of the forms have structural questions that serve to direct what other questions to ask. The above is the most general structural question, used in every form to validate the type of entry. The type of entry can be implied by other information, like how the questions are answered, but for time bound questions, this question informs properties of the variable.
+<br />
+<br />
+For example, if the question is answered "Automatic", then in processing the form takes the timestamp of the form and uses that to calculate the total time of the behavior. If the question is answered "Manual" (either type), then the Timestamp is not used and instead, the manual time entry is converted to a date-time and used as the end point. 
 
 
-It is to group similar variables into the same form. If all the variables that are being tracked were put in different forms, it could take longer to scroll and find the applicable form, and by having similar behaviors grouped, the variables are processed easier.
+
+#### General Data Collection
+![Example](https://github.com/jmbost20/Personal-Data/blob/main/Form%20Questions.png)
+
+These questions are just examples of types of variables that one can track. The power of this system is that one can be very dynamic in what is deemed worthy of inclusion. In creating these question, the end result should be entertained, "How is this going to be encoded to create insights".
 
 
-
-For this form, each variable is grouped
+###### Best Practice:
+It is best to group similar variables into the same form. If all the variables that are being tracked were put in different forms, it could take longer to scroll and find the applicable form, and by having similar behaviors grouped, the variables are processed easier.
 
 
 ## Data Processing
@@ -53,28 +68,44 @@ For this form, each variable is grouped
 
 ### Packages
 
-Photo HERE!!!
-Some of these packages are more niche and take some work to install
+![Example](https://github.com/jmbost20/Personal-Data/blob/main/Packages.png)
+
+* Could use other API Packages, but used these bc they provided clear level of abstraction
+* Some of these packages are more niche and take some work to install.
+* Be cautious with uploading keys
 
 ### API Calls
 
 ![Example](https://github.com/jmbost20/Personal-Data/blob/main/APIs.png)
 
-This is the code that was used to access the APIs
+This is the code that was used to access the APIs, and return the data. Again, there are two main APIs to use here, the Gsheets and GForms. Either way, it is just important process it appropriately.
+
+<br />
 
 
 ## Returnables
 
 ### Options
-After the initial data is extracted from google, there are a variety of free softwares available to use for individual purposes. As there is no one best process for representing one's data, a list will be provided of pro's and cons
+After the initial data is extracted from google, there are a variety of free softwares available to use for individual purposes. As there is no one best process for representing one's data, a list will be provided of pro's and cons. Again, the software chosen depends on purpose, this is just a very general comparison.
 * Google Sheets
   * Pros
-    *   
+    *   *Free, Great Mobile Access*
   * Cons
+    *   *Lacks some more advanced features*
 * Excel
-* Tableau- great for dashboards
+  * Pros
+    *   *Buff with features*
+  * Cons
+    *   *Costs Money to use*
+* Tableau/ PowerBI
+  * Pros
+    *   *Incredible Dashboards*
+  * Cons
+    *   *Costly, Learning Curves*
 
 # Conclusions
 
-This tool is meant to be provide maximum flexibility for data tracking while reducing inconvenience that more manual methods for data tracking would incur (like tallying with pen/ paper). All in all, this system is a starting point or a backbone to then build bigger, better systems on top of: whether that means dediced iOS apps, web apps, or GUIs for collecting data, or that means focusing on the latter end of the Data Science process and integrating other data analytical softwares.
+This tool is meant to be provide maximum flexibility for data tracking while reducing inconvenience that more manual methods for data tracking would incur (like tallying with pen/ paper). 
+<br />
+All in all, this system is a starting point or a backbone to then build bigger, better systems on top of: whether that means dediced iOS apps, web apps, or GUIs for collecting data, or that means focusing on the latter end of the Data Science process and integrating other data analytical softwares.
 
