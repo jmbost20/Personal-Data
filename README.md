@@ -118,5 +118,6 @@ After the initial data is extracted from google, there are a variety of free sof
 
 This tool is meant to be provide maximum flexibility for data tracking while reducing inconvenience that more manual methods for data tracking would incur (like tallying with pen/ paper). 
 <br />
+<br />
 All in all, this system is a starting point or a backbone to then build bigger, better systems on top of: whether that means dediced iOS apps, web apps, or GUIs for collecting data, or that means focusing on the latter end of the Data Science process and integrating other data analytical softwares.
 
