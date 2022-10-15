@@ -55,6 +55,17 @@ For example, if the question is answered "Automatic", then in processing the for
 
 These questions are just examples of types of variables that one can track. The power of this system is that one can be very dynamic in what is deemed worthy of inclusion. In creating these question, the end result should be entertained, "How is this going to be encoded to create insights".
 
+#### Regex Implementation
+
+
+
+![Example](https://github.com/jmbost20/Personal-Data/blob/main/Screen%20Shot%202022-10-14%20at%208.04.17%20PM.png)
+
+The lower portion illustrates where the regex was used.
+
+![Example](https://github.com/jmbost20/Personal-Data/blob/main/Screen%20Shot%202022-10-14%20at%208.04.48%20PM.png)
+
+The Above is the exact characters and digits that were used. 
 
 ###### Best Practice:
 It is best to group similar variables into the same form. If all the variables that are being tracked were put in different forms, it could take longer to scroll and find the applicable form, and by having similar behaviors grouped, the variables are processed easier.
