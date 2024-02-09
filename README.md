@@ -1,6 +1,5 @@
 # Personal-Data
 
-#### ***For Privacy Reasons, the full .py, .ipynb, and commensurate data will not be uploaded, but instead screenshots will be provided.
 
 #### Project Goal 
 Use free available tools to create a sandbox system to enable the user to dynamically update and choose what variables they track.
