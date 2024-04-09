@@ -11,12 +11,12 @@ The APIs of these products are utilized to streamline the retrieval of personal 
 ##### Table of Contents  
 1. [Data Collection](#Data-Collection)  
 2. [Data Processing](#Data-Processing)  
-3. [Returnables](#Returnables)  
+3. [deliverables](#deliverables)  
 4. [Conclusions](#Conclusions)
 
 <a name="Data-Collection"/>
 <a name="Data-Processing"/>
-<a name="Returnables"/>
+<a name="Deliverables"/>
 <a name="Conclusions"/>
 
 
@@ -93,7 +93,7 @@ This is the code that was used to access the APIs, and return the data. Again, t
 <br />
 
 
-## Returnables
+## Deliverables
 
 ### Options
 After the initial data is extracted from google, there are a variety of free softwares available to use for individual purposes. As there is no one best process for representing one's data, a list will be provided of pro's and cons. Again, the software chosen depends on purpose, this is just a very general comparison.
