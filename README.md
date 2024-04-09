@@ -11,7 +11,7 @@ The APIs of these products are utilized to streamline the retrieval of personal 
 ##### Table of Contents  
 1. [Data Collection](#Data-Collection)  
 2. [Data Processing](#Data-Processing)  
-3. [deliverables](#deliverables)  
+3. [Deliverables](#deliverables)  
 4. [Conclusions](#Conclusions)
 
 <a name="Data-Collection"/>
